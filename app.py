@@ -168,7 +168,10 @@ def simulate_status():
         'pir_sensor': 'Active',
         'coordinates': {'lat': 37.7749, 'lng': -122.4194}
     })
-
+@app.route('/favicon.ico')
+@app.route('/favicon.svg')
+def favicon():
+    return send_from_directory('static/images', 'favicon.svg', mimetype='image/svg+xml')
 # ---------- Startup ----------
 if __name__ == '__main__':
     # Ensure libraries exist; if not, download them (requires internet)

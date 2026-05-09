@@ -1,0 +1,15 @@
+{
+  "name": "WildGuard AI",
+  "short_name": "WildGuard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1a",
+  "theme_color": "#00e676",
+  "icons": [
+    {
+      "src": "/static/images/wildguard-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
